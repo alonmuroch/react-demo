@@ -277,11 +277,17 @@ export const initWeb3Onboard = init({
       label: 'Optimism',
       rpcUrl: 'https://mainnet.optimism.io'
     },
+    // {
+    //   id: 84531,
+    //   token: 'ETH',
+    //   label: 'Base Goerli',
+    //   rpcUrl: 'https://goerli.base.org'
+    // },
     {
-      id: 84531,
+      id: 17000,
       token: 'ETH',
-      label: 'Base Goerli',
-      rpcUrl: 'https://goerli.base.org'
+      label: 'Holesky',
+      rpcUrl: `https://cool-prettiest-daylight.ethereum-holesky.quiknode.pro/0d8ffe59dc7865022b15bc0d56692593416330ab/`
     }
   ],
   appMetadata: {
